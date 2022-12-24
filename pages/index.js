@@ -57,7 +57,7 @@ export default function Home() {
               priority
             />
           </div>
-          <h1>Achmad Zaki</h1>
+          <h1>Achmad Zaki fathurohman</h1>
         </div>
 
         <div className={styles.grid}>
