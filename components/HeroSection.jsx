@@ -4,6 +4,7 @@ import heroImg from '../public/images/Hero-img.png'
 import rubick from '../public/images/RoundCube-Orange-Glossy.png'
 import ball from '../public/images/Sphere-White-Matte.png'
 import pill from '../public/images/SuperToroid-Purple-Glossy.png'
+import arrow from '../public/images/arrow.png'
 import Link from 'next/link'
 
 export const HeroSection = () => {
@@ -20,6 +21,13 @@ export const HeroSection = () => {
             <button className='bg-[#F2672E] hover:bg-[#D65926] transition duration-300 rounded-[4px] px-8 py-4 mb-12 font-semibold block mx-auto lg:inline'>
                 <Link href='portfolio' className='flex items-center'>
                     View Portfolio
+                    <div className="ml-3">
+                        <Image
+                            src={arrow}
+                            width={25}
+                            alt='image'
+                        />
+                    </div>
                 </Link>
             </button>
         </div>

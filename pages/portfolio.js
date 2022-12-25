@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 export default function portfolio() {
   return (
     <>
-        <Layout title='portfolio'>
+        <Layout title='Portfolio'>
         
         </Layout>
     </>
